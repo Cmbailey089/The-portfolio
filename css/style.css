@@ -1,4 +1,19 @@
-#box {
-    background-color: blue;
-    padding:10px;
+
+::selection {
+    background-color: rgb(162, 170, 196);
+    color:aqua
+}
+
+
+
+h1,
+h2 {
+    margin-bottom: 0.625rem;
+  color: var(--heliotrope);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+h2 {
+    font-size: medium;
 }
