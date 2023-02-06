@@ -5,15 +5,18 @@
 
 
 :root {
-    --
+    --black:rgb(23, 16, 16); 
+    --blue:rgb(66, 117, 187);
+    --green:rgba(21, 196, 21, 0.774);
+    --magenta:rgb(186, 43, 186);
 }
 
 
 
 
 ::selection {
-    background-color: rgb(32, 202, 97);
-    color:rgb(199, 45, 48);
+    background-color: var(--green);
+    color:var(--black);
 }
 
 
@@ -21,17 +24,41 @@ html {
     font-size: 100%;
 }
 
-h1,
-h2 {
-    margin-bottom: 0.625rem;
-  color: var(--heliotrope);
-  font-weight: 700;
-  line-height: 1.1;
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:var(--blue);
 }
 
-h2 {
-    font-size: medium;
+h1,
+p {
+    text-align: center;
+    margin: 10px;
+    border: 1px;
+    padding: 5px;
+
 }
+
+
+h2 {
+    margin-bottom: 0.625rem;
+  color:var(--magenta);
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 200%;
+  text-align: center;
+}
+
+
+header {
+    display: block;
+   text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: var(--green);
+    font-size: larger;
+}
+
+
 
 .photo {
     display: flex;
@@ -45,4 +72,21 @@ h2 {
 main {
     width: 98%;
     margin: 5rem auto;
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+aside {
+    flex: 1;
+    margin: 5px;
+    border: 1px;
+}
+
+
+
+section {
+    margin-left: 400px;
+    margin-right: 400px;
+
 }
