@@ -29,8 +29,7 @@ body {
     background-color:var(--blue);
 }
 
-h1,
-p {
+h1 {
     text-align: center;
     margin: 10px;
     border: 1px;
@@ -60,7 +59,7 @@ header {
 
 
 
-.photo {
+.img {
     display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -78,15 +77,20 @@ main {
 }
 
 aside {
-    flex: 1;
-    margin: 5px;
-    border: 1px;
+    width: 40%;
+    margin-right: 5px;
+    padding-right: 5px;
+    float:left;
+}
+
+aside > p {
+    margin: 5%;
 }
 
 
 
 section {
-    margin-left: 400px;
-    margin-right: 400px;
+    float: right;
+    width: 20%;
 
 }
