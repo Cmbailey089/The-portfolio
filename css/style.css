@@ -26,7 +26,7 @@ html {
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color:var(--blue);
+    background:radial-gradient(circle, rgba(82, 163, 216, 0.899),rgb(30, 38, 192));
 }
 
 h1 {
@@ -49,12 +49,11 @@ h2 {
 
 
 header {
-    background-image:"The-portfolio/Images/istockphoto-1324412560-612x612.jpg";
+    background: transparent;
     display: block;
    text-align: center;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 10px;
-    background-color: var(--green);
     font-size: larger;
 }
 
@@ -95,3 +94,9 @@ section {
     width: 20%;
 
 }
+
+@media screen and (max-width: 992px) {
+    
+}
+    
+
