@@ -26,7 +26,7 @@ html {
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background:radial-gradient(circle, rgba(82, 163, 216, 0.899),rgb(30, 38, 192));
+    background:radial-gradient(circle, rgba(216, 82, 198, 0.899),rgb(192, 30, 30));
 }
 
 h1 {
@@ -57,6 +57,24 @@ header {
     font-size: larger;
 }
 
+section .mywork {
+    margin: 60%;
+    border: 1px;
+    position: relative;
+    text-align: justify;
+}
+
+section .contactme {
+    display:flex;
+    flex-wrap: wrap;
+    border: 1px;
+    flex-direction: row-reverse;
+    margin: 60%;
+    text-decoration: black;
+
+
+}
+
 
 
 .img {
@@ -65,7 +83,7 @@ header {
   justify-content: flex-start;
   min-height: 100%;
   padding: 2rem;
-  color: blue; 
+  color: var(--black); 
 }
 
 main {
@@ -88,14 +106,9 @@ aside > p {
 }
 
 
-
-section {
-    float: right;
-    width: 20%;
-
-}
-
 @media screen and (max-width: 992px) {
+
+    
     
 }
     
